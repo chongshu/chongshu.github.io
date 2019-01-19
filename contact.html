@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="Chong Shu, USC, Economics, PhD, INET">
+<meta name="description" content="This is Chong Shu's Personal Website">
+<meta name="author" content="Chong Shu">
+<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+<title>Chong Shu - Contact</title>
+<link rel="stylesheet" id="tie-style-css"  href="css.css" type="text/css" media="all" />
+<link href="fontface.css" rel="stylesheet" type="text/css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114221644-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114221644-1');
+</script>
+</head>
+
+<body bgcolor="#ECECEC">
+<div id="wrap">
+<div id="title">Chong Shu</div>
+<div id="navigation">
+	<a href="index.php"><div class="navItem">Home</div></a>
+    <a href="cv.html"><div class="navItem">Vitae</div></a>
+    <a href="research.html"><div class="navItem">Research</div></a>
+    <a href="teaching.html"><div class="navItem">Teaching</div></a>
+    <a href="contact.html"><div class="navItem"  id="select">Contact</div></a>
+</div>
+<div id="main">
+    <div style="float:left">
+    <strong>Mailing Address:</strong><br/><br/>
+    Chong Shu<br/>
+    USC FBE Dept.<br/>
+   HOH Hall - 231, MC-1422<br/>
+   701 Exposition Boulevard, Ste. 231 <br/>
+    Los Angeles, CA 90089-1422<br/><br/>
+    <br/>
+    <strong>Email:</strong> <br/><br/>
+    chongshu at marshall dot usc dot edu
+    </div>
+	
+<div id="map" ></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(34.019481, -118.285875),
+    zoom: 15,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+var marker = new google.maps.Marker({
+  position:new google.maps.LatLng(34.019481, -118.285875),
+  animation:google.maps.Animation.BOUNCE
+  });
+
+marker.setMap(map);
+}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAcuoyKIQDdHK8ugKufKpIiQYa7taO_zQ&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+
+<div id="icondiv">
+<a href="mailto:chongshu@usc.edu" target="_blank"><img class="icon" src="icon/gmail.png" height="80px"/></a>
+<a href="https://www.instagram.com/chongshu/" target="_blank"><img class="icon" src="icon/instagram.png" height="80px"/></a>
+<a href="https://www.linkedin.com/in/chongshu" target="_blank"><img class="icon" src="icon/linkedin.png" height="80px"/></a>
+<a href="skype:chongshu2" target="_blank"><img class="icon" src="icon/skype.png" height="80px"/></a>
+
+</div>
+
+
+
+</div>
+
+<div id="footer">Designed and coded by Chong Shu, 2016-2018 &#9400;</div>
+</div>
+</body>
+</html>
