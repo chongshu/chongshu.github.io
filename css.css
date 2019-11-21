@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-a {text-decoration: none;
+a:not(.research-tab) {text-decoration: none;
  color:#074587;
 }
 #wrap {
@@ -10,10 +10,11 @@ a {text-decoration: none;
 	border-color:grey;
 	 margin:0 auto;
 	 margin-top:80px;
+	 overflow: auto;
 	}
 #title {
 	font-size:40px;
-	font-family: 'Abril Fatface', cursive;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	padding-left: 50px;
 	padding-top:20px;
 	font-weight: bold;
@@ -53,6 +54,7 @@ a:hover{
 	font-size:20px;
 	font-family: 'Vollkorn', serif;
 	padding-top:50px;
+	
 }
 #pic{
 	float:right;
@@ -69,6 +71,8 @@ a:hover{
 	width:1150px;
 	float:left;
 	text-align:center;
+	font-family: 'Vollkorn', serif;
+	
 }
 
 #icondiv{
@@ -112,6 +116,10 @@ a:hover{
   /* visibility: hidden; */
 /* } */
 
+body {
+	background-color:#F4F0E8
+}
+
 label {
   display: block;
   padding: 0.5em;
@@ -145,6 +153,10 @@ label::before {
 
   color: #FFF;
 }
+
+
+ 
+
 #expand2 {
   height: 0px;
   overflow: hidden;
@@ -180,6 +192,8 @@ visibility: hidden;
 #toggle3:checked ~ #expand3 {
   height: 250px;
 }
+
+ 
 
 
 #main {
