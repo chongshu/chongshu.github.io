@@ -11,6 +11,8 @@ a:not(.research-tab) {text-decoration: none;
 	 margin:0 auto;
 	 margin-top:80px;
 	 overflow: auto;
+	 background-color:#F4F0E8
+
 	}
 #title {
 	font-size:40px;
@@ -104,6 +106,12 @@ a:hover{
 	font-size:20px;
 }
 
+.li3{
+	margin-left:35px;
+	font-size:16px;
+	margin:3px;
+}
+
 .pic{
 	height:250px;
 	margin-left:3px;
@@ -117,7 +125,8 @@ a:hover{
 /* } */
 
 body {
-	background-color:#F4F0E8
+   background: linear-gradient(to bottom, #ececec 0%, #ffffff 100%) fixed;
+
 }
 
 label {
