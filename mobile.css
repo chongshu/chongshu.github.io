@@ -17,14 +17,17 @@
         height:650px;
         border:solid;
         border-color:grey;
-         margin:0 auto;
-         margin-top:80px;
+         margin-top:400px;
+         margin-left:-100px;
          overflow: auto;
          background-color:#F4F0E8;
-           -webkit-transform: rotate(090deg);
+
+         -webkit-transform: rotate(090deg);
          -moz-transform: rotate(090deg);
          -o-transform: rotate(090deg);
          -ms-transform: rotate(090deg);
          transform: rotate(090deg);
+
         }
+
 }
