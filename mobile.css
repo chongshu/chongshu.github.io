@@ -8,6 +8,13 @@
          margin-top:80px;
          overflow: auto;
          background-color:#F4F0E8;
+		 
+		 -webkit-transform:  scale(0.8);
+         -moz-transform: r scale(0.8);
+         -o-transform: scale(0.8);
+         -ms-transform:  scale(0.8);
+         transform:  scale(0.8);
+		 
         }
 }
 
@@ -17,17 +24,16 @@
         height:650px;
         border:solid;
         border-color:grey;
-         margin-top:400px;
+         margin-top:500px;
          margin-left:-100px;
          overflow: auto;
          background-color:#F4F0E8;
 
-         -webkit-transform: rotate(090deg);
-         -moz-transform: rotate(090deg);
-         -o-transform: rotate(090deg);
-         -ms-transform: rotate(090deg);
-         transform: rotate(090deg);
+         -webkit-transform: rotate(090deg) scale(1.2);
+         -moz-transform: rotate(090deg) scale(1.2);
+         -o-transform: rotate(090deg) scale(1.2);
+         -ms-transform: rotate(090deg) scale(1.2);
+         transform: rotate(090deg) scale(1.2);
 
-        }
 
 }
