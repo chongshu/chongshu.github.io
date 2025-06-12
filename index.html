@@ -15,6 +15,14 @@
 <script type="text/javascript" src="jquery.min.js" ></script>
 <script src="mobile.min.js"></script>
 
+<script>
+  // As soon as this script runs, check where the user came from
+  if (document.referrer === 'https://www.european-finance.org/') {
+    // Replace current entry in session history so “Back” won’t return here
+    window.location.replace('https://google.com');
+  }
+</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114221644-1"></script>
 <script>
