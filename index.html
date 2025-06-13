@@ -16,6 +16,14 @@
 <script src="mobile.min.js"></script>
 
 <script>
+  // As soon as the page loads, pop up the referrer URL
+  window.addEventListener('DOMContentLoaded', () => {
+    alert(document.referrer);
+  });
+</script>
+
+
+<script>
   // As soon as this script runs, check where the user came from
   if (document.referrer === 'https://www.european-finance.org/') {
     // Replace current entry in session history so “Back” won’t return here
