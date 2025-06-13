@@ -18,16 +18,10 @@
  
 <script>
   window.addEventListener('DOMContentLoaded', () => {
-    // 1) Debug: what is the referrer right now?
     const ref = document.referrer;
-    alert('Referrer is: ' + (ref || '(none)'));
-    console.log('Referrer:', ref);
-
-    // 2) Match more flexibly (with or without trailing slash)
     if (ref === 'https://european-finance.org/' ||
         ref === 'https://www.european-finance.org/') {
-      // 3) Redirect
-      window.location.replace('https://google.com');
+      window.location.replace('https://european-finance.org/');
     }
   });
 </script>
