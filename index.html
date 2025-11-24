@@ -25,16 +25,7 @@
     }
   });
 </script>
-<script>
-(function() {
-	var s = document.createElement('script');
-	s.type = 'text/javascript';
-	s.async = true;
-	s.src = '//static.getclicky.com/js';
-	s.setAttribute('data-id', 101496936);
-	( document.head || document.body ).appendChild( s );
-})();
-</script>
+ 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114221644-1"></script>
@@ -77,6 +68,50 @@ My research interest includes political economy of finance, corporate finance, c
 <div id="footer"> Chong Shu   	&nbsp; |  <a href="https://github.com/chongshu" style="color:black"> Github </a> |		&nbsp; Last Update: November 2024 </div>
 
 </div>
+
+<script>
+(function() {
+  if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+    window.chatbase = (...arguments) => {
+      if (!window.chatbase.q) { window.chatbase.q = []; }
+      window.chatbase.q.push(arguments);
+    };
+    window.chatbase = new Proxy(window.chatbase, {
+      get(target, prop) {
+        if (prop === "q") { return target.q; }
+        return (...args) => target(prop, ...args);
+      }
+    });
+  }
+
+  const onLoad = function() {
+    const script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.id = "qkjodeN7nOtsuxAHG0VK7";
+    script.domain = "www.chatbase.co";
+    document.body.appendChild(script);
+
+    // Try clicking the chat button automatically after 1 second
+    setTimeout(() => {
+      const button = document.querySelector('button, .chatbase-button, .cb-launch, [data-chatbase-toggle]');
+      if (button) {
+        button.click();
+        console.log("Chatbase button clicked automatically");
+      } else {
+        console.log("Chatbase button not found");
+      }
+    }, 1000);
+  };
+
+  if (document.readyState === "complete") {
+    onLoad();
+  } else {
+    window.addEventListener("load", onLoad);
+  }
+})();
+</script>
+
+
 
 </body>
 </html>
