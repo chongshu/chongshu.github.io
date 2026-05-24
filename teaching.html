@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -11,9 +11,16 @@
 
 <link href="fontface.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="tie-style-css"  href="css.css" type="text/css" media="all" />
 <script type="text/javascript" src="jquery.min.js" ></script>
 <script src="mobile.min.js"></script>
+<style>
+.teach-btn { border-color:#888 !important; color:#888 !important; background:#fff !important; }
+.teach-btn:hover { background:#E07B2A !important; color:#fff !important; }
+</style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114221644-1"></script>
@@ -37,9 +44,9 @@
 
 </head>
 
-<body>
+<body bgcolor="#ECECEC">
 <div id="wrap">
-    <div id="title">Chong Shu <span style="float:right; margin-right:30px; margin-top:-90px; margin-bottom: -45px"><img src="icon\utah.png" style="width:300px"></span></div>
+    <div id="title">Chong Shu <span style="float:right; margin-right:30px; margin-top:-90px; margin-bottom: -45px"><img src="icon\utah_grey.png" style="width:300px"></span></div>
 <div id="navigation">
 	<a href="index.html"><div class="navItem">Home</div></a>
     <a href="cv.html"><div class="navItem">Vitae</div></a>
@@ -47,31 +54,29 @@
     <a href="teaching.html"><div class="navItem" id="select">Teaching</div></a>
     <a href="code.html"><div class="navItem">Code & Data</div></a>
 </div>
-<div id="main" style="height:530px; margin-top:0px;" >
+<div id="main" style="margin-top:-30px; width:900px; padding-bottom:30px;">
 
-<div class="li1"><strong>At Utah Eccles School of Business</strong><br/><br/></div>
-<div class="li2">
+<!--	<div style="font-family:'Playfair Display',Georgia,serif; font-size:30px; font-weight:700; border-bottom:1px solid #ccc; padding-bottom:4px; margin-bottom:12px;">Teaching</div>-->
 
-FINAN 7801 (PhD Core) Corporate Finance <a href="syllabus/7801.pdf" target="_blank"><button  class = "btn btn-outline-primary" > Syllabus (.pdf) </button></a> <span style="float:right">Fall 2023-2025</span>  
+	<div style="background:#ede9e3; border:1px solid #ddd; border-radius:6px; padding:16px 20px; margin-bottom:12px; line-height:1.4;">
+		<div style="font-size:17px; font-weight:600; color:#444; margin-bottom:8px;">University of Utah — David Eccles School of Business</div>
+		<div style="display:flex; justify-content:space-between; align-items:center; padding:6px 0; border-bottom:1px solid #ddd;">
+			<div><span style="font-size:15px;">FINAN 7801 — Corporate Finance</span><span style="font-size:13px; color:#888; margin-left:8px;">PhD Core</span></div>
+			<div style="display:flex; align-items:center; gap:12px;"><a href="syllabus/7801.pdf" target="_blank" class="dl-btn teach-btn">Syllabus</a><span style="color:#888; font-size:15px;">Fall 2023–2025</span></div>
+		</div>
+		<div style="display:flex; justify-content:space-between; align-items:center; padding:6px 0;">
+			<div><span style="font-size:15px;">FINAN 4030 — Corporate Finance</span><span style="font-size:13px; color:#888; margin-left:8px;">Undergraduate</span></div>
+			<div style="display:flex; align-items:center; gap:12px;"><a href="syllabus/4030.pdf" target="_blank" class="dl-btn teach-btn">Syllabus</a><span style="color:#888; font-size:15px;">Fall 2021–2025</span></div>
+		</div>
+	</div>
 
-<br/>
-
-FINAN 4030 (Undergraduate) Corporate Finance <a href="syllabus/4030.pdf" target="_blank"> <button  class = "btn btn-outline-primary" > Syllabus (.pdf) </button> </a><span style="float:right">Fall 2021-2025</span>  
-
-</div>
-<br/>
-
-<div class="li1"><strong>At USC Marshall School of Business</strong><br/><br/></div>
-
-<div class="li2">
- BUAD 306 (Undergraduate) Business Finance <a href="syllabus/306.pdf" target="_blank"><button  class = "btn btn-outline-primary" > Syllabus (.pdf) </button> </a>  <span style="float:right">Summer 2019</span> 
-
-</div>
-<br/>
-
- 
- 
-
+	<div style="background:#ede9e3; border:1px solid #ddd; border-radius:6px; padding:16px 20px; margin-bottom:12px; line-height:1.4;">
+		<div style="font-size:17px; font-weight:600; color:#444; margin-bottom:8px;">USC Marshall School of Business</div>
+		<div style="display:flex; justify-content:space-between; align-items:center; padding:6px 0;">
+			<div><span style="font-size:15px;">BUAD 306 — Business Finance</span><span style="font-size:13px; color:#888; margin-left:8px;">Undergraduate</span></div>
+			<div style="display:flex; align-items:center; gap:12px;"><a href="syllabus/306.pdf" target="_blank" class="dl-btn teach-btn">Syllabus</a><span style="color:#888; font-size:15px;">Summer 2019</span></div>
+		</div>
+	</div>
 
 </div>
 </body>

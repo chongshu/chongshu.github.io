@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -20,7 +20,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-114221644-1');
 </script>
 <script>
@@ -34,106 +33,83 @@
 })();
 </script>
 
-
-<link rel="stylesheet" id="tie-style-css"  href="css.css" type="text/css" media="all" />
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" id="tie-style-css" href="css.css" type="text/css" media="all" />
+<style>
+.paper-card { background:#ede9e3; border:1px solid #ddd; border-radius:6px; padding:16px 20px; margin-bottom:12px; line-height:1.4; }
+.paper-title { font-size:17px; font-weight:700; color:#222; }
+.paper-journal { font-size:15px; color:#888; font-style:italic; font-weight:600; margin-top:2px; }
+.paper-links { margin-top:8px; display:flex; flex-wrap:wrap; gap:6px; }
+.paper-abstract { margin-top:10px; font-size:14px; font-style:italic; color:#444; line-height:1.6; border-top:1px solid #ccc; padding-top:8px; }
+.section-label { font-size:13px; font-weight:600; color:#888; margin-top:8px; margin-bottom:4px; text-transform:uppercase; letter-spacing:0.05em; }
+.research-btn { border-color:#888 !important; color:#888 !important; background:#fff !important; }
+.research-btn:hover { background:#E07B2A !important; color:#fff !important; }
+</style>
 </head>
 
 <body bgcolor="#ECECEC">
 <div id="wrap">
-    <div id="title">Chong Shu <span style="float:right; margin-right:30px; margin-top:-90px; margin-bottom: -25px"><img src="icon\utah.png" style="width:300px"></span></div>
+    <div id="title">Chong Shu <span style="float:right; margin-right:30px; margin-top:-90px; margin-bottom: -25px"><img src="icon\utah_grey.png" style="width:300px"></span></div>
 <div id="navigation">
 	<a href="index.html"><div class="navItem">Home</div></a>
     <a href="cv.html"><div class="navItem">Vitae</div></a>
-    <a href="research.html"><div class="navItem"  id="select">Research</div></a>    
+    <a href="research.html"><div class="navItem" id="select">Research</div></a>
     <a href="teaching.html"><div class="navItem">Teaching</div></a>
     <a href="code.html"><div class="navItem">Code & Data</div></a>
 </div>
-<div id="main" style="height:530px; margin-top:-30px;overflow:auto;width:900px">
+<div id="main" style="margin-top:-30px; width:900px; padding-bottom:30px;">
 
- <strong><span style="font-size:25px;">Publications</span></strong><div style="height:12px"></div>
+	<div style="font-family:'Playfair Display',Georgia,serif; font-size:30px; font-weight:700; border-bottom:1px solid #ccc; padding-bottom:4px; margin-bottom:12px;">Publications</div>
 
+	<!-- Paper 1 -->
+	<div class="paper-card">
+		<div class="paper-title">1. &ldquo;The Proxy Advisory Industry: Influencing and Being Influenced&rdquo;</div>
+		<div class="paper-journal"><i>Journal of Financial Economics</i>, April 2024 &nbsp;&mdash;&nbsp; <strong>Editor&rsquo;s Choice</strong></div>
+		<div class="paper-links">
+			<a data-toggle="collapse" data-target="#abstract1" class="dl-btn research-btn" style="cursor:pointer;">Abstract</a>
+			<a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X24000333" target="_blank" class="dl-btn research-btn">Published</a>
+			<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3614314" target="_blank" class="dl-btn research-btn">Ungated</a>
+		</div>
+		<div class="section-label">Media</div>
+		<div class="paper-links" style="margin-top:0;">
+			<a href="https://www.reuters.com/business/autos-transportation/tesla-turns-musks-small-shareholder-fans-back-56-billion-payday-2024-06-10/" target="_blank" class="dl-btn research-btn">Reuters</a>
+			<a href="https://www.forbes.com/sites/ikebrannon/2020/07/01/secs-proxy-advisor-rule-should-be-finalized-despite-claytons-potential-departure/" target="_blank" class="dl-btn research-btn">Forbes</a>
+			<a href="https://www.nationalreview.com/2021/05/how-financial-institutions-disenfranchise-everyday-investors/" target="_blank" class="dl-btn research-btn">National Review</a>
+			<a href="https://morningconsult.com/opinions/the-sec-needs-to-robo-cop-the-problem-of-robo-voting/" target="_blank" class="dl-btn research-btn">Morning Consult</a>
+		</div>
+		<div class="section-label">Policy</div>
+		<div class="paper-links" style="margin-top:0;">
+			<a href="https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/letters.pdf" target="_blank" class="dl-btn research-btn">U.S. House of Representatives</a>
+			<a href="https://www.hagerty.senate.gov/wp-content/uploads/2025/06/Hagerty-DOJ-FTC-Letter-on-Proxy-Advisors-6.23.25.pdf" target="_blank" class="dl-btn research-btn">U.S. Senate</a>
+			<a href="https://www.sec.gov/files/rules/final/2022/33-11131.pdf" target="_blank" class="dl-btn research-btn">SEC Rule 33-11131</a>
+			<a href="https://cdn.builder.io/o/assets%2F679146658e6d45af922aa9d9409fb683%2F54a06f15daee44508862c3acde133057?alt=media&token=eddf794e-d09e-438d-a423-a0f98894d259&apiKey=679146658e6d45af922aa9d9409fb683" target="_blank" class="dl-btn research-btn">Business Roundtable</a>
+		</div>
+		<div id="abstract1" class="collapse paper-abstract">
+			This paper develops two new methods to infer a mutual fund's proxy advisors from SEC filings. It then applies these methods to characterize features of the proxy advice industry from 2007 to 2021: (i) As of 2021, ISS and Glass Lewis collectively control approximately 90 percent of the market. During this period, the market share of ISS remains stable, while that of Glass Lewis has increased. (ii) When a proxy advisor issues a recommendation opposing management, its customers are approximately 20 percentage points more likely to also oppose management compared to other investors. (iii) Funds that subscribe to both proxy advisors tend to vote more similarly to the recommendations of the advisor whose voting platform they use. (iv) Proxy advisors often change their advisory stance when investors disagree with their previous advice. I offer suggestive evidence that this adaptation reflects both learning from informed investors and a desire by proxy advisors to align with the preferences of their customers.
+		</div>
+	</div>
 
- 1. "The Proxy Advisory Industry: Influencing and Being Influenced", <i><b>Journal of Financial Economics, April 2024 (Editor's Choice) </b></i> <br/>
-   
+	<!-- Paper 2 -->
+	<div class="paper-card">
+		<div class="paper-title">2. &ldquo;Endogenous Risk-Exposure and Systemic Instability&rdquo;</div>
+		<div class="paper-journal"><i>Management Science</i>, July 2025</div>
+		<div class="paper-links">
+			<a data-toggle="collapse" data-target="#abstract2" class="dl-btn research-btn" style="cursor:pointer;">Abstract</a>
+			<a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01519" target="_blank" class="dl-btn research-btn">Published</a>
+			<a href="https://ssrn.com/abstract=3076076" target="_blank" class="dl-btn research-btn">Ungated</a>
+		</div>
+		<div id="abstract2" class="collapse paper-abstract">
+			Most research on systemic stability assumes an economy where banks are subject to exogenous shocks. However, in practice, banks choose their exposure to risk. I show that there exists a network risk-taking externality: the risk exposure choices made by connected banks are strategically complementary. Banks within financial networks, especially densely connected ones, become endogenously exposed to excessive risks. The theory offers several novel perspectives on policy debates. For instance, it suggests that limiting government bailouts to interbank exposures can effectively reduce endogenous systemic risk.
+		</div>
+	</div>
 
-  <div style="margin-left:30px; width:750px; font-size:18px; line-height: 200%;">  <button  class = "btn btn-outline-primary" data-toggle="collapse" data-target="#paper5">Abstract </button > &nbsp;| &nbsp;  
-    <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X24000333"> <button  class = "btn btn-outline-primary" >Published version</button> </a> &nbsp;| &nbsp; 
-  <a target="_blank" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3614314"> <button  class = "btn btn-outline-primary" >Ungated version</button> </a> &nbsp;| &nbsp; 
-  <a target="_blank" href="https://www.reuters.com/business/autos-transportation/tesla-turns-musks-small-shareholder-fans-back-56-billion-payday-2024-06-10/"> <button  class = "btn btn-outline-primary" > Media - Reuters </button> </a> &nbsp;| &nbsp;  
-    <a target="_blank" href="https://www.forbes.com/sites/ikebrannon/2020/07/01/secs-proxy-advisor-rule-should-be-finalized-despite-claytons-potential-departure/"> <button  class = "btn btn-outline-primary" > Media - Forbes </button> </a> &nbsp;| &nbsp;  
-        <a target="_blank" href="https://www.nationalreview.com/2021/05/how-financial-institutions-disenfranchise-everyday-investors/"> <button  class = "btn btn-outline-primary" > Media - National Review </button> </a> &nbsp;| &nbsp;  
+	<div style="font-size:18px; color:#444; margin-top:10px;">
+		Working papers are updated regularly on my <a href="CV.pdf" target="_blank" style="color:#888; font-weight:600;">CV ↗</a>.
+	</div>
 
-	<a target="_blank" href="https://morningconsult.com/opinions/the-sec-needs-to-robo-cop-the-problem-of-robo-voting/"> <button  class = "btn btn-outline-primary" > Media - Morning Consult </button> </a> &nbsp;| &nbsp;  
-
-  <a target="_blank" href="https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/letters.pdf"> <button  class = "btn btn-outline-primary" > U.S. House of Representatives </button> </a> &nbsp;| &nbsp;  
-    <a target="_blank" href="https://www.hagerty.senate.gov/wp-content/uploads/2025/06/Hagerty-DOJ-FTC-Letter-on-Proxy-Advisors-6.23.25.pdf"> <button  class = "btn btn-outline-primary" > U.S. Senate </button> </a> &nbsp;| &nbsp;  
-  <a target="_blank" href="https://www.federalregister.gov/documents/2022/12/22/2022-24292/enhanced-reporting-of-proxy-votes-by-registered-management-investment-companies-reporting-of#:~:text=Chong%20Shu,%20The%20Proxy%20Advisory%20Industry:%20Influencing%20and%20Being%20Influenced" > <button  class = "btn btn-outline-primary" > SEC Rule 33-11131 </button> </a> &nbsp;| &nbsp;     
- 
-   <a target="_blank" href="https://cdn.builder.io/o/assets%2F679146658e6d45af922aa9d9409fb683%2F54a06f15daee44508862c3acde133057?alt=media&token=eddf794e-d09e-438d-a423-a0f98894d259&apiKey=679146658e6d45af922aa9d9409fb683" > <button  class = "btn btn-outline-primary" > Business Roundtable </button> </a>   
-   </div>
-
- 
-   
-  <div id="paper5" style="margin-left:30px;font-size:15px;font-style: italic; "  class="collapse">
-  <br/> This paper develops two new methods to infer a mutual fund’s proxy advisors from SEC filings. It then applies these methods to characterize features of the proxy advice industry from 2007 to 2021: (i) As of 2021, ISS and Glass Lewis collectively control approximately 90 percent of the market. During this period, the market share of ISS remains stable, while that of Glass Lewis has increased. (ii) When a proxy advisor issues a recommendation opposing management, its customers are approximately 20 percentage points more likely to also oppose management compared to other investors. (iii) Funds that subscribe to both proxy advisors tend to vote more similarly to the recommendations of the advisor whose voting platform they use. (iv) Proxy advisors often change their advisory stance when investors disagree with their previous advice. I offer suggestive evidence that this adaptation reflects both learning from informed investors and a desire by proxy advisors to align with the preferences of their customers.
-
-  </div>
-  
-    	<div style='height:15px;'> </div>
-
-  
-      2. "Endogenous Risk-Exposure and Systemic Instability", <i><b>Management Science, October 2024 </b></i> <br/> 
-   
- 
-
-   <div style="margin-left:30px; width:700px; font-size:18px">    
-   <button  class = "btn btn-outline-primary" data-toggle="collapse" data-target="#paper2">Abstract </button > 
-   &nbsp;| &nbsp; 
-       <a target="_blank" href="https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01519"> <button  class = "btn btn-outline-primary" >Published version</button> </a> &nbsp;| &nbsp; 
-   <a target="_blank" href="https://ssrn.com/abstract=3076076">  <button  class = "btn btn-outline-primary" >Ungated version</button> </a>
- 
-
-
-   <br/>
-   </div>
-   
-     <div id="paper2" class="collapse" style="margin-left:30px;font-size:15px;font-style: italic;">
-<br/>Most research on systemic stability assumes an economy where banks are subject to exogenous shocks. However, in practice, banks choose their exposure to risk. I show that there exists a network risk-taking externality: the risk exposure choices made by connected banks are strategically complementary. Banks within financial networks, especially densely connected ones, become endogenously exposed to excessive risks. The theory offers several novel perspectives on policy debates. For instance, it suggests that limiting government bailouts to interbank exposures can effectively reduce endogenous systemic risk.
-  </div>
-  
-  
-  	<div style='height:15px;'> </div>
-
-	
-  
-  
-  
-  <br/>
-  
-(Other working papers will be updated regularly on my <a target="_blank" href="CV.pdf">CV</a>.)
-
-  
- 	 
- 
-  
-	
-
-<!-- 
-	<div style='height:10px;'> </div>
-
-
- <strong>1. "Banking Competition Revisited: Shadow Banks v.s. Commercial Banks", 2017</strong><br/>
-
- <div style="margin-left:30px; width:700px; font-size:18px">  <button  class = "btn btn-outline-primary" data-toggle="collapse" data-target="#paper1">Abstract </button > &nbsp;| &nbsp;  <a target="_blank" href="AFA_final.pdf"> <button  class = "btn btn-outline-primary" > 2018 AFA poster session (poster.pdf) </button> </a> 
- <br/>
 </div>
-     <div id="paper1" style="font-size:15px;font-style: italic;" class="collapse">
-<br/>In this paper, I first propose a novel and under-studied deposit competition from shadow banking sector that induces traditional commercial banks to offer higher deposit rates and hold riskier portfolios. The mechanism is through increased bankruptcy likelihood from higher deposit rates and it exacerbates the moral hazard problem. Then I show that through this channel of deposit competition, government could regulate both commercial banks’ and shadow banks’ risk by either a deposit ceiling regulation or an equity ratio requirement, even though shadow banks are not directly regulated. A panel data from 1987 to 2015 of 63 countries’ 1811 banks confirm that higher deposit rates by shadow banks will cause commercial banks to increase their deposit rates and risk portfolios, especially in countries with generous deposit insurance, loose banking regulation, or weak supervisor power.
-  <br/> </div>
--->
-</div>
-
 </div>
 </body>
 </html>

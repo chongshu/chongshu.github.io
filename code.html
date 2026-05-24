@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -10,11 +10,18 @@
 <title>Chong Shu - Research</title>
 
 <link rel="stylesheet" href="bootstrap.min.css">
-<link rel="stylesheet" id="tie-style-css"  href="css.css" type="text/css" media="all" />
-<link href="fontface.css" rel="stylesheet" type="text/css"><script src="jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" id="tie-style-css" href="css.css" type="text/css" media="all" />
+<link href="fontface.css" rel="stylesheet" type="text/css">
+<script src="jquery.min.js"></script>
 <script src="bootstrap.min.js"></script>
 <script src="mobile.min.js"></script>
-<link rel="stylesheet" href="bootstrap.min.css">
+<style>
+.code-btn { border-color:#888 !important; color:#888 !important; background:#fff !important; }
+.code-btn:hover { background:#E07B2A !important; color:#fff !important; }
+</style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114221644-1"></script>
@@ -40,7 +47,7 @@
 
 <body bgcolor="#ECECEC">
 <div id="wrap">
-    <div id="title">Chong Shu <span style="float:right; margin-right:30px; margin-top:-90px; margin-bottom: -25px"><img src="icon\utah.png" style="width:300px"></span></div>
+    <div id="title">Chong Shu <span style="float:right; margin-right:30px; margin-top:-90px; margin-bottom: -25px"><img src="icon\utah_grey.png" style="width:300px"></span></div>
 <div id="navigation">
 	<a href="index.html"><div class="navItem">Home</div></a>
     <a href="cv.html"><div class="navItem">Vitae</div></a>
@@ -48,35 +55,57 @@
     <a href="teaching.html"><div class="navItem">Teaching</div></a>
     <a href="code.html"><div class="navItem" id="select">Code & Data</div></a>
 </div>
-<div id="main" style="height:530px; margin-top:-30px;overflow:auto;width:850px">
+<div id="main" style="margin-top:-30px; width:900px; padding-bottom:30px;">
 
+<!--	<div style="font-family:'Playfair Display',Georgia,serif; font-size:30px; font-weight:700; border-bottom:1px solid #ccc; padding-bottom:4px; margin-bottom:12px;">Code &amp; Data</div>-->
 
-	
-		<b style="color: red">[updated 11/2024]</b>  Glass Lewis Recommendations from a public record law request, appeared in "The Proxy Advisory Industry: Influencing and Being Influenced", <i> JFE, 2024 </i>  <button  class = "btn btn-outline-primary" data-toggle="collapse" data-target="#code0b"> Data </button>
+	<div style="background:#ede9e3; border:1px solid #ddd; border-radius:6px; padding:16px 20px; margin-bottom:12px;">
+		<div style="display:flex; justify-content:space-between; align-items:center; gap:20px;">
+			<div style="flex:1; font-size:16px; line-height:1.5;">
+				<span style="font-size:13px; color:#888; font-weight:600;">Updated May 2026</span><br>
+				Link between mutual fund families and their proxy advisor subscriptions (2007–2021). Identified from SEC prospectus filings. As appeared in <i>&ldquo;The Proxy Advisory Industry: Influencing and Being Influenced,&rdquo;</i> <span style="color:#888; font-style:italic; font-weight:600;">Journal of Financial Economics</span>, 2024.
+			</div>
+			<div style="flex-shrink:0;">
+				<a href="https://github.com/chongshu/proxy-advisor-customers" target="_blank" class="dl-btn code-btn">Download</a>
+			</div>
+		</div>
+	</div>
 
-	<div id="code0b" class="collapse" style="margin-left:30px; width:700px; font-size:18px"><br/><a href="https://github.com/chongshu/gl_recommendations/?" style="text-decoration: underline;">Download here</a> </div>
+	<div style="background:#ede9e3; border:1px solid #ddd; border-radius:6px; padding:16px 20px; margin-bottom:12px;">
+		<div style="display:flex; justify-content:space-between; align-items:center; gap:20px;">
+			<div style="flex:1; font-size:16px; line-height:1.5;">
+				<span style="font-size:13px; color:#888; font-weight:600;">Updated November 2024</span><br>
+				Glass Lewis vote recommendations for U.S. public companies, obtained via a public records request. As appeared in <i>&ldquo;The Proxy Advisory Industry: Influencing and Being Influenced,&rdquo;</i> <span style="color:#888; font-style:italic; font-weight:600;">Journal of Financial Economics</span>, 2024.
+			</div>
+			<div style="flex-shrink:0;">
+				<a href="https://github.com/chongshu/gl_recommendations/" target="_blank" class="dl-btn code-btn">Download</a>
+			</div>
+		</div>
+	</div>
 
-	<br/><br/>
+	<div style="background:#ede9e3; border:1px solid #ddd; border-radius:6px; padding:16px 20px; margin-bottom:12px;">
+		<div style="display:flex; justify-content:space-between; align-items:center; gap:20px;">
+			<div style="flex:1; font-size:16px; line-height:1.5;">
+				<span style="font-size:13px; color:#888; font-weight:600;">Updated November 2024</span><br>
+				MATLAB code for the numerical analyses of network risk-taking distortion and financial network payment equilibrium. As appeared in <i>&ldquo;Endogenous Risk Exposure and Systemic Instability,&rdquo;</i> <span style="color:#888; font-style:italic; font-weight:600;">Management Science</span>, 2025.
+			</div>
+			<div style="flex-shrink:0;">
+				<a href="https://github.com/chongshu/shu2019endogenous_public" target="_blank" class="dl-btn code-btn">Download</a>
+			</div>
+		</div>
+	</div>
 
-		<b>[updated 1/2022]</b>  Mutual fund subscriptions to proxy advisors, as appeared in <i> "The Proxy Advisory Industry: Influencing and Being Influenced."  </i>  <button  class = "btn btn-outline-primary" data-toggle="collapse" data-target="#code0"> Data </button>
-
-	<div id="code0" class="collapse" style="margin-left:30px; width:700px; font-size:18px"><br/> I intend to make the dataset publicly available. I am currently writing readme documentations. For immediate access, please email me at chong.shu@eccles.utah.edu </div>
-
-	<br/><br/>
-
-	<b style="color: red">[updated 11/2024]</b> Numerical analyses Code for  <i> "Endogenous Risk Exposure and Systemic Instability", Management Science, forthcoming.  </i>  <button  class = "btn btn-outline-primary" data-toggle="collapse" data-target="#code1"> Code </button>
-	
-
-
-
-	<div id="code1" class="collapse" style="margin-left:30px; width:700px; font-size:18px"><br/> The code is for the numerical analyses of the network risk-taking distortion, as appeared in <i> Shu (2024) </i>. Part of this code can also be used to solve the fixed point of a financial network's payment equilibirum, as in Eisenberg and Noe (2000). Matlab Code is available at <a target="_blank" href="https://github.com/chongshu/shu2019endogenous_public" style="color:red"> <u> Github</u> </a> </div>
-
-	<br/><br/>
-  
-   <b>[updated 11/2018]</b>  Scraping LexisNexis using Selenium.  <button  class = "btn btn-outline-primary" data-toggle="collapse" data-target="#code2"> Code </button>
-
-
-	<div id="code2" class="collapse" style="margin-left:30px; width:700px; font-size:18px"> <br/> <i>  Disclaimer: for academic purposes and an illustration of Selenium only. Scraping LexisNexis <i> for commercial use </i> may be a violation of LexisNexis user policy. Use at your own legal risk. </i> Python Code is available at <a target="_blank" href="https://github.com/chongshu/LexisNexis-Scraping" style="color:red"> <u> Github</u> </a>   </div>
+	<div style="background:#ede9e3; border:1px solid #ddd; border-radius:6px; padding:16px 20px; margin-bottom:12px;">
+		<div style="display:flex; justify-content:space-between; align-items:center; gap:20px;">
+			<div style="flex:1; font-size:16px; line-height:1.5;">
+				<span style="font-size:13px; color:#888; font-weight:600;">Updated November 2018</span><br>
+				Python code for scraping LexisNexis using Selenium. For academic and demonstration purposes only.
+			</div>
+			<div style="flex-shrink:0;">
+				<a href="https://github.com/chongshu/LexisNexis-Scraping" target="_blank" class="dl-btn code-btn">Download</a>
+			</div>
+		</div>
+	</div>
 
 </div>
 
